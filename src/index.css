@@ -1,0 +1,34 @@
+:root {
+	--main-yellow: #ffe44d;
+}
+body {
+	margin: 0;
+	font-family: serif;
+}
+
+.wrapper {
+	min-height: 100vh;
+	/* background-color: bisque; */
+}
+
+.cards-container {
+	max-width: 1000px;
+	margin: auto;
+	padding: 30px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 30px;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+}
+main {
+	flex: 1 0 auto;
+}
