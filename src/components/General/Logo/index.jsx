@@ -4,8 +4,8 @@ import logo from './img/logo.svg'
 
 export default function Logo() {
 	return (
-		<a href="/" className="logo">
-			<img src={logo} alt="Dog Food" />
+		<a href="/">
+			<img className='' src={logo} alt="Dog Food" />
 			{/* <span>DogFood</span> */}
 		</a>
 	)

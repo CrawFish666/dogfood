@@ -14,7 +14,7 @@ const App = () => {
 		<>
 			<Header products={data} updateProducts={setGoods} />
 			<main>
-				<div className="cards-container">
+				<div className="max-w-screen-1030 mx-auto p-[15px] grid grid-cols-4 gap-[15px]">
 					{goods.map((data, index) => {
 						return (
 							<Card
